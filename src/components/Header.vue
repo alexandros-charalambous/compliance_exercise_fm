@@ -3,7 +3,6 @@
     <div class="logo">
       <img src="@/assets/logo.svg" alt="Logo" />
     </div>
-
     <div class="vector1">
       <img src="@/assets/Vector1.svg" alt="Vector1" />
     </div>
@@ -11,7 +10,7 @@
       <img src="@/assets/Vector2.svg" alt="Vector2" />
     </div>
 
-    <div class="content">
+    <section class="content">
       <div class="content-article">
         <h1>Stay Informed. Stay Compliant.</h1>
         <p>
@@ -57,7 +56,7 @@
           </div>
         </form>
       </div>
-    </div>
+    </section>
   </header>
 </template>
 
@@ -67,6 +66,7 @@ const submit = () => {};
 
 <style scoped>
 header {
+  overflow-x: clip;
   width: 100%;
   position: relative;
   padding: 27px 64px 64px 64px;
@@ -85,22 +85,6 @@ header {
   }
 }
 
-.vector1 {
-  overflow-x: hidden;
-  position: absolute;
-  z-index: -1;
-  top: 0px;
-  right: 0px;
-}
-
-.vector2 {
-  overflow-x: hidden;
-  position: absolute;
-  z-index: -1;
-  right: 0px;
-  bottom: 0px;
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -108,6 +92,33 @@ header {
 
   img {
     height: auto;
+  }
+}
+
+.vector1 {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+
+  @media (max-width: 1439px) {
+    right: 30%;
+    top: 20%;
+    margin: auto;
+  }
+}
+
+.vector2 {
+  overflow-y: hidden;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  bottom: 0px;
+
+  @media (max-width: 1439px) {
+    bottom: -200px;
+    right: -200px;
+    margin: auto;
   }
 }
 
@@ -133,6 +144,7 @@ header {
 }
 
 .content-article h1 {
+  max-width: 500px;
   font-weight: 700;
   font-size: 60px;
 

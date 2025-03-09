@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <section class="content">
     <div class="section-h">
       <h1>Your Monthly Compliance Guide</h1>
       <p>
@@ -56,7 +56,7 @@
     <div class="submit">
       <button type="button" @click="submit">Get Free Report</button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>
