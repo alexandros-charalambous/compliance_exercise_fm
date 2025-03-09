@@ -1,0 +1,31 @@
+<svg width="1009" height="938" viewBox="0 0 1009 938" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_4007_1788)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M543.5 130.019C665.562 128.86 792.017 180.495 829.817 296.546C867.679 412.788 794.779 527.397 696.714 600.413C594.082 676.83 457.805 725.145 353.246 651.386C245.262 575.212 228.144 425.958 273.441 301.828C313.873 191.028 425.543 131.139 543.5 130.019Z" fill="url(#paint0_linear_4007_1788)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M543.5 130.019C665.562 128.86 792.017 180.495 829.817 296.546C867.679 412.788 794.779 527.397 696.714 600.413C594.082 676.83 457.805 725.145 353.246 651.386C245.262 575.212 228.144 425.958 273.441 301.828C313.873 191.028 425.543 131.139 543.5 130.019Z" fill="#1335F5"/>
+</g>
+<defs>
+<filter id="filter0_f_4007_1788" x="0" y="-120" width="1090" height="1058" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_4007_1788"/>
+</filter>
+<linearGradient id="paint0_linear_4007_1788" x1="250" y1="688" x2="896.626" y2="405.049" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6CACE4"/>
+<stop offset="0.0666667" stop-color="#6CACE4"/>
+<stop offset="0.133333" stop-color="#6DADE4"/>
+<stop offset="0.2" stop-color="#6FAEE5"/>
+<stop offset="0.266667" stop-color="#72B0E5"/>
+<stop offset="0.333333" stop-color="#75B3E6"/>
+<stop offset="0.4" stop-color="#79B6E7"/>
+<stop offset="0.466667" stop-color="#7DB9E8"/>
+<stop offset="0.533333" stop-color="#82BDEA"/>
+<stop offset="0.6" stop-color="#86C0EB"/>
+<stop offset="0.666667" stop-color="#8AC3EC"/>
+<stop offset="0.733333" stop-color="#8DC6ED"/>
+<stop offset="0.8" stop-color="#90C8ED"/>
+<stop offset="0.866667" stop-color="#92C9EE"/>
+<stop offset="0.933333" stop-color="#93CAEE"/>
+<stop offset="1" stop-color="#93CAEE"/>
+</linearGradient>
+</defs>
+</svg>
