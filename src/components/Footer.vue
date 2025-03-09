@@ -132,6 +132,7 @@
   line-height: 28px;
   font-weight: 400;
   font-size: 18px;
+  line-height: 28px;
 }
 
 .socialmedia {
@@ -144,6 +145,7 @@
   height: 166px;
   padding-left: 24px;
   padding-right: 24px;
+  gap: 8px;
 
   @media (max-width: 767px) {
     padding: 0px;
@@ -153,9 +155,9 @@
 .menu ul {
   display: grid;
   min-width: 150px;
-  gap: 8px;
   padding: 0;
   list-style-type: none;
+  line-height: 28px;
 }
 
 .copyright {
@@ -173,6 +175,7 @@
 .copyright p {
   font-weight: 400;
   font-size: 14px;
+  line-height: 22px;
 }
 
 .policies ul {
@@ -185,5 +188,6 @@
   text-decoration: underline;
   font-weight: 500;
   font-size: 12px;
+  line-height: 20px;
 }
 </style>

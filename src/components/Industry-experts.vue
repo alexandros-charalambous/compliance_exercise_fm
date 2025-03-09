@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-    <div class="section-h">
+    <div class="title">
       <h1>Prepared by industry experts</h1>
       <p>Meet our Team behind our intelligence insights.</p>
     </div>
@@ -87,27 +87,30 @@ const moveSlide = (index) => {
   }
 }
 
-.section-h {
+.title {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.section-h h1 {
+.title h1 {
   color: var(--color-text-primary);
   font-weight: 600;
   font-size: 36px;
+  line-height: 44px;
 
   @media (max-width: 767px) {
     font-weight: 600;
     font-size: 24px;
+    line-height: 32px;
   }
 }
 
-.section-h p {
+.title p {
   color: var(--color-text-secondary);
   font-weight: 400;
   font-size: 20px;
+  line-height: 30px;
 }
 
 .cards {
@@ -125,13 +128,27 @@ const moveSlide = (index) => {
   width: 378px;
   padding: 32px;
   border-radius: 16px;
-  border: 1px solid;
   background: var(--color-background-primary);
+
+  position: relative;
 
   @media (max-width: 767px) {
     width: 255px;
     padding: 22px;
   }
+}
+
+.card::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(180deg, #ffffff4d, #ffffff00);
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  background-clip: xor;
+  mask-composite: exclude;
 }
 
 .card img {
@@ -156,12 +173,14 @@ const moveSlide = (index) => {
   color: var(--color-text-primary);
   font-weight: 600;
   font-size: 24px;
+  line-height: 32px;
 }
 
 .card-p p {
   color: var(--color-text-secondary);
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .dots {

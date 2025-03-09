@@ -62,10 +62,12 @@
   color: var(--color-text-primary);
   font-weight: 600;
   font-size: 36px;
+  line-height: 44px;
 
   @media (max-width: 767px) {
     font-weight: 600;
     font-size: 24px;
+    line-height: 32px;
   }
 }
 
@@ -100,6 +102,7 @@
   color: var(--color-text-primary);
   font-weight: 400;
   font-size: 18px;
+  line-height: 28px;
 
   @media (max-width: 767px) {
     font-weight: 600;
@@ -111,9 +114,11 @@
   color: var(--color-text-secondary);
   font-weight: 400;
   font-size: 18px;
+  line-height: 28px;
 
   @media (max-width: 767px) {
     font-size: 16px;
+    line-height: 24px;
   }
 }
 </style>

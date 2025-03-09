@@ -162,6 +162,7 @@ header {
 .content-article p {
   font-weight: 400;
   font-size: 20px;
+  line-height: 30px;
 
   @media (max-width: 767px) {
     font-size: 16px;
@@ -173,11 +174,11 @@ header {
   min-width: 576px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #acaeb7;
-  border-radius: 16px;
   padding: 48px;
   gap: 48px;
   background-color: var(--color-background-secondary);
+  position: relative;
+  border-radius: 15px;
 
   @media (max-width: 767px) {
     width: 100%;
@@ -185,6 +186,19 @@ header {
     min-width: 0px;
     padding: 32px;
   }
+}
+
+.content-box::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(142.66deg, #acaeb7, #4c4d51);
+  mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+  background-clip: xor;
+  mask-composite: exclude;
 }
 
 .content-box h1 {
@@ -204,6 +218,12 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .field div label {
@@ -247,6 +267,7 @@ header {
 .terms-p1 {
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .underline-p1 {
@@ -257,6 +278,7 @@ header {
 .terms-p2 {
   font-weight: 400;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .underline-p2 {
