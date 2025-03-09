@@ -129,7 +129,6 @@
 
 .footer-text p {
   color: var(--color-text-secondary);
-  line-height: 28px;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -141,8 +140,10 @@
 }
 
 .menu {
+  display: flex;
   color: var(--color-text-secondary);
   height: 166px;
+  min-width: 215px;
   padding-left: 24px;
   padding-right: 24px;
   gap: 8px;
@@ -154,9 +155,13 @@
 
 .menu ul {
   display: grid;
-  min-width: 150px;
   padding: 0;
   list-style-type: none;
+}
+
+.menu ul li {
+  font-weight: 400;
+  font-size: 18px;
   line-height: 28px;
 }
 

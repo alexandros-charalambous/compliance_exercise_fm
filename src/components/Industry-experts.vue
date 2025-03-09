@@ -114,12 +114,12 @@ const moveSlide = (index) => {
 }
 
 .cards {
-  overflow-x: scroll;
+  overflow: scroll;
+  scrollbar-width: none;
   display: flex;
   flex-direction: row;
   height: 100%;
   gap: 30px;
-  scrollbar-width: none;
 }
 
 .card {
